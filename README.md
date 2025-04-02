@@ -30,11 +30,8 @@ To simulate and compare BER performance in an FSO link over 0.2–3 km using:
 ## 📘 Theory Used
 
 ### Lognormal Fading
-- Based on the Rytov theory for weak turbulence:
-  \[
-  \sigma_I^2 = 1.23 \cdot C_n^2 \cdot k^{7/6} \cdot R^{11/6}
-  \]
-- \( \mu = -\sigma^2 / 2 \) ensures unity-mean lognormal fading.
+- Based on the Rytov theory for weak turbulence
+- mu = -sigma^2  ensures unity-mean lognormal fading.
 
 ### Atmospheric Attenuation
 - Attenuation α is computed using the **ITU-R F.2106-1** model for fog (radiation or advection).
@@ -57,8 +54,8 @@ The script generates BER vs SNR curves comparing:
 - Wavelength: 1550 nm  
 - Distance: 0.2 to 3 km  
 - Visibility: 2 km  
-- \( C_n^2 \): \(10^{-15} \, \text{m}^{-2/3}\) (weak turbulence)  
-- Bits simulated per SNR point: \(10^6\)  
+- C_n^2: 10^{-15}, {m}^{-2/3} (weak turbulence)  
+- Bits simulated per SNR point: 10^6
 
 ---
 
